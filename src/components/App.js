@@ -28,7 +28,7 @@ const App = () => {
           <Route path="php" element={<PHP />} />
           <Route path="who-we-are" element={<AboutWho />} />
           <Route path="our-values" element={<OurValues />} />
-          <Route path="*" element={<p style={{color:'orange red'}}>Click the homebutton for getting the data</p>} />
+          <Route path="*" element={<h2 style={{color:'orange red'}}>"Click the homebutton for getting the data"</h2>} />
         </Route>
       </Routes>
     </>
