@@ -28,7 +28,7 @@ const App = () => {
           <Route path="php" element={<PHP />} />
           <Route path="who-we-are" element={<AboutWho />} />
           <Route path="our-values" element={<OurValues />} />
-          <Route path="*" element={<p>Not found!</p>} />
+          <Route path="*" element={<p>Click the home page</p>} />
         </Route>
       </Routes>
     </>
