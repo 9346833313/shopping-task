@@ -8,34 +8,34 @@ export const menuItems = [
     url: '/services',
     submenu: [
       {
-        title: 'web design',
-        url: 'web-design',
+        title: 'home delivery',
+        url: 'delivery',
       },
       {
-        title: 'web development',
-        url: 'web-dev',
+        title: 'cash on delivery',
+        url: 'cash',
         submenu: [
           {
-            title: 'Frontend',
-            url: 'frontend',
+            title: 'cash on delivery',
+            url: 'products',
           },
           {
-            title: 'Backend',
+            title: 'creditcards',
             submenu: [
               {
-                title: 'NodeJS',
-                url: 'node',
+                title: 'icici card',
+                url: 'cards',
               },
               {
-                title: 'PHP',
-                url: 'php',
+                title: 'HDFC card',
+                url: 'cash on delivery',
               },
             ],
           },
         ],
       },
       {
-        title: 'SEO',
+        title: 'credit cards',
         url: 'seo',
       },
     ],
@@ -45,11 +45,11 @@ export const menuItems = [
     url: '/about',
     submenu: [
       {
-        title: 'Who we are',
-        url: 'who-we-are',
+        title: 'good products',
+        url: 'products',
       },
       {
-        title: 'Our values',
+        title: '5 star rating',
         url: 'our-values',
       },
     ],
