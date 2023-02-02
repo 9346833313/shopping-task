@@ -1,4 +1,5 @@
-export const menuItems = [
+
+      export const menuItems = [
   {
     title: 'Home',
     url: '/',
@@ -20,6 +21,10 @@ export const menuItems = [
             url: 'products',
           },
           {
+            title: 'phonpe wallet',
+            url: 'our-values',
+          },
+          {
             title: 'creditcards',
             submenu: [
               {
@@ -30,13 +35,21 @@ export const menuItems = [
                 title: 'HDFC card',
                 url: 'cash on delivery',
               },
+              {
+                title: 'andhra bank card',
+                url: 'andhra',
+              },
+              {
+                title: 'Yes card',
+                url: 'yes',
+              },
             ],
           },
         ],
       },
       {
         title: 'credit cards',
-        url: 'seo',
+        url: 'credit',
       },
     ],
   },
@@ -50,6 +63,18 @@ export const menuItems = [
       },
       {
         title: '5 star rating',
+        url: 'our-values',
+      },
+      {
+        title: 'quality items',
+        url: 'our-values',
+      },
+      {
+        title: 'reasonbul prices',
+        url: 'our-values',
+      },
+      {
+        title: 'safe delivery',
         url: 'our-values',
       },
     ],
