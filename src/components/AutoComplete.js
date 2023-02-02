@@ -21,7 +21,7 @@ export default function AutoComplete() {
 
       <div className="search-container">
         <div className="search-inner">
-          <input type="text" value={value} onChange={onChange} />
+          <input type="text" value={value}  placeholder="search" onChange={onChange} />
           <button onClick={() => onSearch(value)}> Search </button>
         </div>
         <div className="dropdownn">
