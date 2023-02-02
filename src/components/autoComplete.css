@@ -13,10 +13,11 @@
 }
 
 .dropdownn {
-  background-color: white;
+  background-color: yellow;
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
+  color:black;
 }
 
 .dropdownn:empty {
